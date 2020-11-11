@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import { Grid, Header, Segment } from 'semantic-ui-react';
 import './App.css';
+import Account from './components/Account';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Segment vertical textAlign="center">
+      <Header as="h1" textAlign="center">Smells Fargo</Header>
+      <Grid columns="2">
+        <Grid.Row>
+          <Grid.Column>
+            <Account title="Checking" id="checking"/>
+          </Grid.Column>
+          <Grid.Column>
+            <Account title="Savings" id="savings"/>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    </Segment>
   );
 }
 
