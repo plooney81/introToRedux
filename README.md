@@ -18,10 +18,8 @@ The front end of our Full Stack React Blog was created using the following techn
 
 
 ## Lessons Learned
-* REST API basics
-* Implementation of Sequelize to handle SQL queries
-* Refamiliarized with CRUD API operations and the respective Sequelize methods to handle those operations in the Database.
-* How to use the CORS middleware package to enable different cors options. 
+* How to implement react-redux
+* Difference between Provider and connect()
 
 
 <!-- ## **Still Todo**
