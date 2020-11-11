@@ -5,10 +5,10 @@
 - [Lessons Learned](#lessons-learned)
   
 ## About this repository
-* This repository lessons and examples created while learning Redux Fundamentals, and later applying them to react components.
+* This repository houses lessons and examples created while learning Redux Fundamentals, and later applying them to react components.
 
 ## **General**
-The front end of our Full Stack React Blog was created using the following technologies/frameworks/libraries:
+The redux banking app was created using the following technologies/frameworks/libraries:
 
 <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img src="https://img.shields.io/badge/redux%20-%2320232a.svg?&style=for-the-badge&logo=redux&logoColor=blueviolet">
