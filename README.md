@@ -1,4 +1,4 @@
-# FullStack React - Backend <!-- omit in toc -->
+# Redux Banking App <!-- omit in toc -->
 
 - [About this repository](#about-this-repository)
 - [**General**](#general)
