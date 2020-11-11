@@ -8,13 +8,15 @@ export default function Account(props) {
     const dispatch = useDispatch();
     const [newAmount, setNewAmount] = useState(0);
 
+    const rounded = Math.round(parseFloat(newAmount * 100)) / 100 ;
+
     const handlePlus = () => {
-        dispatch(increment(parseFloat(newAmount), props.id));
+        dispatch(increment(rounded, props.id));
         setNewAmount(0);
     }
 
     const handleMinus = () => {
-        dispatch(decrement(parseFloat(newAmount), props.id));
+        dispatch(decrement(rounded, props.id));
     }
 
     console.log(state);
